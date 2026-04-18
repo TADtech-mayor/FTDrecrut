@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recrutement</title>
+</head>
+<body>
+    <form action="">
+             <h1>informations de l'etudiant</h1>
+            <div class="input_box">
+                <input id="Etudiant_Nom" name="Etudiant_Nom" type="text" placeholder="Nom de l'etudiant" required>
+            </div>
+            <div class="input_box">
+                <input id="Etudiant_Prenom" name="Etudiant_Prenom" type="text" placeholder="prenom de l'etudiant" required>
+            </div>
+            <div class="input_box">
+                <input id="Etudiant_Numero" name="Etudiant_Numero" type="number" placeholder="Numero de l'etudiant">
+            </div class="input_box">
+            <div class="input_box">
+                <input id="Parent_Numero" name="Parent_Numero" type="text" placeholder="Numero du parent">
+            </div>
+            <div class="input_box">
+              <input id="Etudiant_Lycee" name="Etudiant_Lycee" type="text" placeholder="Lycée de provenance" required>
+            </div>
+            <!-- <div class="input_box">
+              <!-- <input id="nom" name="nom" type="text" placeholder="choix"> -->
+            <!-- </div> -->
+             <div class="select_box">
+                <label for="select">Choix de l'etudiant</label>
+                <select name="Etudiant_Choix" id="select">
+                    <option value="">Medecine</option>
+                    <option value="">Pharmacie</option>
+                    <option value="">Odontologie</option>
+                </select>
+            </div>
+            <div class="input_box">
+               <button id="save_btn" type="submit">enregistrer</button>
+            </div>
+    </form>
+</body>
+</html>

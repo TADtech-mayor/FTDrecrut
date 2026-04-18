@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+form{
+
+  background-color: #7e22ce;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+form h1 {
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.input_box{
+    width: 450px;
+    margin: 10px;
+}
+
+.input_box input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.input_box input::placeholder{
+    color: white;
+}
+
+
+#save_btn{
+    width: 100%;
+    position: relative;
+    left: 7px;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.5;
+}
+
+#save_btn:hover{
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.select_box{
+  width: 450px;
+  margin: 10px;  
+}
+
+.select_box select{
+     width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.select_box select option {
+    color: black;
+}
+
+
+label{
+     font-weight: 500;
+     color: white;
+     position: relative;
+     left: 150px;
+}
