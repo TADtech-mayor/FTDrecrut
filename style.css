@@ -103,12 +103,12 @@ label{
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        padding: 5px;
         box-sizing: border-box;
     }
     form{
        width: 85%;
-       max-width: 320px;
+       max-width: 475px;
        border-radius: 15px;
        padding: 25px;
        box-sizing: border-box;
