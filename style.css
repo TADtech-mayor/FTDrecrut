@@ -93,3 +93,74 @@ label{
      position: relative;
      left: 150px;
 }
+
+/* ici je vais adapter mon site aux appareils mobiles android de ce moment  */
+
+@media screen and (max-width: 480px) {
+    body{
+
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    form{
+       width: 85%;
+       max-width: 320px;
+       border-radius: 15px;
+       padding: 25px;
+       box-sizing: border-box;
+    }
+
+    .input_box{
+    width: 100%;
+    margin: 10px;
+    }
+    .input_box input{
+    position: relative;
+    right: 25px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+.select_box{
+  width: 100%;
+  margin: 10px;  
+}
+.select_box select{
+    position: relative;
+    right: 15px;
+     width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+}
+label{
+     font-weight: 500;
+     color: white;
+     position: relative;
+     left: 55px;
+}
+#save_btn{
+    width: 100%;
+    position: relative;
+    left: -10px;
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.5;
+}
+}
